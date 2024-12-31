@@ -1,0 +1,98 @@
+.TTTmain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black; /* Set the background color to black */
+    flex-direction: column;
+  }
+  
+  .TTTgame {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+ .TTTgame h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #4caf50;
+  }
+  
+  .TTTgame h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #4caf50;
+
+  }
+  
+  .TTTboard {
+    display: grid;
+    grid-template-columns: repeat(3, 100px); /* 3 columns */
+    grid-template-rows: repeat(3, 100px); /* 3 rows */
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 20px;
+
+  }
+  
+  .TTTcell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(24, 221, 24); /* Set the cell background color to green */
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .TTTcell:hover {
+    background-color: darkgreen; /* Darker green for hover effect */
+  }
+  
+  .TTTrestart {
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 70px;
+  }
+  
+  .TTTrestart:hover {
+    background-color: #45a049;
+  }
+  
+  .Link {
+    text-decoration: none;
+  }
+  
+  .TTTHome {
+    margin-top: 20px;
+    background-color: #45a049;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  .TTTHome h3 {
+    color: white;
+    font-size: 20px;
+    margin: 0;
+  }
+  
+  .TTTHome:hover {
+    background-color: #000000;
+    color: black;
+    border: 1px solid white;
+  }

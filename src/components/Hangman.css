@@ -1,0 +1,33 @@
+.hangman-game {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .word {
+    font-size: 24px;
+    margin: 20px;
+  }
+  
+  .alphabet button {
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .alphabet button:disabled {
+    background-color: lightgray;
+    cursor: not-allowed;
+  }
+  
+  .status {
+    font-size: 18px;
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  

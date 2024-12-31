@@ -1,0 +1,105 @@
+.numberGame {
+  width: 100%;
+  background-color: black;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  color: rgb(21, 228, 21);
+  box-shadow: inset 0 0 100px rgba(21, 228, 21, 0.3);
+  flex-direction: column;
+}
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.numberHead {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: rgb(21, 228, 21);
+  text-shadow: 0 0 15px rgba(21, 228, 21, 0.7);
+}
+
+.numberP {
+  color: rgb(21, 228, 21);
+  font-size: 1.5em;
+  margin: 15px 0;
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  width: 120px;
+  margin-right: 10px;
+  background-color: black;
+  border: 2px solid rgba(21, 228, 21, 0.5);
+  outline: none;
+  color: rgb(21, 228, 21);
+  box-shadow: 0 0 15px rgba(21, 228, 21, 0.7);
+  border-radius: 5px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  border-color: rgb(21, 228, 21);
+  box-shadow: 0 0 30px rgba(21, 228, 21, 0.8);
+}
+
+.numberBtn {
+  padding: 12px 25px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: black;
+  color: rgb(21, 228, 21);
+  border: 2px solid rgb(21, 228, 21);
+  border-radius: 5px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px rgba(21, 228, 21, 0.7);
+  transition: all 0.3s ease;
+}
+
+.numberBtn:hover {
+  background-color: rgb(21, 228, 21);
+  color: black;
+  box-shadow: 0 0 40px rgba(21, 228, 21, 1);
+}
+
+.numberBtn:active {
+  transform: scale(0.95);
+}
+
+.numberBtn[disabled] {
+  background-color: gray;
+  cursor: not-allowed;
+  color: #ddd;
+  box-shadow: none;
+  border: 2px solid gray;
+}
+
+.appMain {
+  width: 50%;
+  /* max-width: 600px; */
+  height: 500px;
+  background-color: black;
+  margin: 0 auto;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 2px solid rgba(21, 228, 21, 0.7);
+  box-shadow: 0 0 100px rgba(21, 228, 21, 0.7);
+  border-radius: 10px;
+}
+.Link{
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 500;
+}

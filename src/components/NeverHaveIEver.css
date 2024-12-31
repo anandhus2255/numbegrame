@@ -1,0 +1,35 @@
+.game-container {
+    text-align: center;
+    margin: 50px;
+  }
+  
+  .statement-container {
+    margin: 20px 0;
+    font-size: 1.5em;
+  }
+  
+  .answer-buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  .score {
+    margin: 20px 0;
+    font-size: 1.2em;
+  }
+  
+  .next-button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .next-button:hover {
+    background-color: #45a049;
+  }
+  

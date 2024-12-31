@@ -1,0 +1,45 @@
+.Apbody {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+  
+  .game-container {
+    text-align: center;
+    width: 600px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .game-info {
+    margin-bottom: 20px;
+  }
+  
+  .canvas-container {
+    margin: 20px 0;
+  }
+  
+  canvas {
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  input {
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
